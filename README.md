@@ -1,4 +1,12 @@
 # Lumen PHP Framework
+## Info 
+Use the secret keys as if it were the .env and create all your sensitive data such as the database connection.
+
+You can create the configuration folder as it is in laravel or you can also set the environment variables directly in the vendor/laravel/lumen-framework/config.
+
+Command to run the server: "php -S 0.0.0.0.0:8000 -t ./public".
+
+In the .replit to run the server is: run = "php -S 0.0.0.0.0:8000 -t ./public".
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
